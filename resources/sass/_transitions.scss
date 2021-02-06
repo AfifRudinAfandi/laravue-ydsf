@@ -1,0 +1,54 @@
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.2s;
+}
+.fade-enter,
+.fade-leave-to {
+	opacity: 0;
+}
+
+//Zoom effect
+.zoom-fade-enter-active {
+	transition: all 0.3s ease;
+}
+.zoom-fade-leave-active {
+	transition: all 0.4s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.zoom-fade-enter,
+.zoom-fade-leave-to {
+	transform: translateX(10px);
+	opacity: 0;
+}
+
+// Slide Effect
+.slide-fade-enter-active {
+	transition: all 0.3s ease;
+}
+.slide-fade-leave-active {
+	transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+	transform: translateX(10px);
+	opacity: 0;
+}
+
+// Slide Effect
+.slide-enter {
+	opacity: 0;
+	transform: translateX(10px);
+}
+.slide-enter-to {
+	transform: scale3d(1, 1, 1);
+}
+.slide-enter-active,
+.slide-leave-active {
+	transition: 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.slide-leave {
+	transform: scale3d(1, 1, 1);
+}
+.slide-leave-to {
+	opacity: 0;
+	transform: translateX(10px);
+}

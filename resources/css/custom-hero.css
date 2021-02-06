@@ -1,0 +1,12 @@
+.hero {
+    height: calc(100vh + 64px) !important;
+}
+.hero-slider {
+    height: calc(100vh + 64px) !important;
+}
+.carousel-item {
+    height: calc(100vh + 64px) !important;
+}
+.main-background-custom {
+    margin-top: 64px;
+  }

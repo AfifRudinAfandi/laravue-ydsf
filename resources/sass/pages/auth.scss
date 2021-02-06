@@ -1,0 +1,24 @@
+::v-deep .form-auth {
+	label {
+		@apply text-sm text-gray-600;
+	}
+	.input {
+		@apply w-full outline-none border border-gray-200 bg-gray-100 mt-1 py-2 px-2 rounded-md transition duration-200 ease-in-out;
+		&:focus {
+			@apply shadow-sm bg-white;
+		}
+	}
+	.error {
+		@apply border-red-500;
+	}
+	.label-error {
+		@apply text-xs text-red-500;
+	}
+}
+
+::v-deep .btn-social {
+	@apply block flex px-4 py-2 rounded-md mb-2;
+	.text {
+		@apply w-full text-center;
+	}
+}

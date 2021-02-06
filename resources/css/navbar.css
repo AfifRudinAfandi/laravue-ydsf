@@ -1,0 +1,162 @@
+.login-nav {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 19px;
+  color: #909aad !important;
+  margin-right: 24px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #0c55a4 !important;
+}
+.nav-link.router-link-exact-active.router-link-active {
+  color: #0c55a4 !important;
+}
+.login-nav:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.login-nav:hover {
+  color: #0c55a4;
+}
+.navbar-nav .nav-item .nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #909aad;
+  margin-right: 24px;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0c55a4;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0c55a4;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("/images/toggel.svg");
+  width: 32px;
+  height: 32px;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+.nav-color {
+  background: #ffffff;
+  box-shadow: 0 0.5rem 1rem rgba(72, 179, 74, 0.055);
+}
+.bg-change {
+  background-color: #48b349;
+  z-index: 10;
+  margin-top: 64px !important;
+  padding: 14px !important;
+}
+
+.bg-change .program-count,
+.bg-change .program-title,
+.bg-change .idr,
+.bg-change .line-vertical {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.add-margin {
+  margin-top: 196px;
+}
+.btn-language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btn-language:focus {
+  box-shadow: none !important;
+}
+.drop-lang {
+  position: absolute !important;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 24px rgba(45, 56, 110, 0.15);
+}
+.drop-lang .itm-language {
+  padding: 0.25rem 1rem;
+}
+.btn-profile:focus {
+  box-shadow: none;
+}
+.mobile-lang .dropdown .btn-language span {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.mobile-lang .active-notif {
+  margin-right: 8px;
+}
+
+.btn-language span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #909aad;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.itm-language span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #909aad;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.btn-profile span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2d386e;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  color: #909aad;
+}
+.ic-language {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.active-notif {
+  display: flex;
+  position: relative;
+  margin-right: 18px;
+}
+.active-notif img {
+  pointer-events: none;
+}
+.active-notif .badge {
+  width: 8px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1.5px solid #ffffff;
+  position: absolute;
+  top: 8px;
+  right: -4px;
+}

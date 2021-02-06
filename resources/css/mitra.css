@@ -1,0 +1,209 @@
+section.mitra {
+  padding-top: 55px;
+  padding-bottom: 80px;
+}
+.title-mitra {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  color: #2d386e;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.title-mitra span:nth-child(1) {
+  font-weight: bold;
+}
+.title-mitra span:nth-child(2) {
+  font-weight: bold;
+  color: #48b349;
+}
+.title-mitra-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #909aad;
+  margin-bottom: 69px;
+}
+.link-mitra-card:hover {
+  text-decoration: none;
+}
+.link-mitra-card:hover .card-mitra-salur {
+  box-shadow: 0px 4px 24px rgba(45, 56, 110, 0.15);
+}
+.card-mitra-salur {
+  background: #ffffff;
+  border: 1px solid #e2edf8;
+  overflow: hidden;
+  border-radius: 18px;
+  margin-bottom: 34px;
+}
+.image-card-mitra {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.card-mitra-body {
+  padding: 21px 20px;
+}
+.mitra-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  color: #2d386e;
+}
+.address-mitra {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #909aad;
+  margin-bottom: 30px;
+}
+.address-mitra i {
+  color: #fcbd60;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.mitra-program {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2d386e;
+  margin-bottom: 18px;
+}
+.wrapper-horizon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.icon-wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.icon-wrapp i {
+  font-size: 10px;
+  color: #ffffff;
+}
+.color-active {
+  background-color: #48b349;
+}
+.color-danger {
+  background-color: #ff6060;
+}
+.count-program {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+  color: #909aad;
+}
+
+.show-more-wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+.btn-show-more {
+  background: #ffffff;
+  border: 1px solid #e2edf8;
+  box-sizing: border-box;
+  border-radius: 80px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 12px 28px;
+  color: #48b349;
+}
+.card-join {
+  position: relative;
+  z-index: 9;
+  margin-bottom: -180px;
+}
+.card-join .ct-main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-join .container .wrapper-card {
+  box-shadow: 0px 4px 24px rgba(45, 56, 110, 0.15);
+  width: 85%;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  border-radius: 22px;
+  background-image: url("/images/bg-card-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #ffffff;
+}
+.decor-join-title {
+  position: absolute;
+  background: #2d86be;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  border-radius: 0 0 14px 14px;
+  padding: 8px 20px;
+  top: 0;
+  left: 60px;
+}
+.card-join .ct-card {
+  padding-left: 60px;
+}
+.ct-card .join-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 46px;
+  color: #2d386e;
+}
+.ct-card .join-title .span-first {
+  font-weight: bold;
+  color: #48b349;
+}
+.ct-card .join-title .span-last {
+  font-weight: bold;
+  color: #2d86be;
+}
+.ct-card .join-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #909aad;
+  max-width: 380px;
+  margin-bottom: 32px;
+}
+.ct-card .btn-join {
+  background: #48b349;
+  border-color: #48b349;
+  box-shadow: 0px 4px 24px rgba(72, 179, 73, 0.35);
+  border-radius: 80px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff !important;
+  text-decoration: none;
+  padding: 12px 28px;
+}

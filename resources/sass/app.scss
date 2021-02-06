@@ -1,0 +1,14 @@
+//font e import ng kene
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap");
+@import "vue-select/src/scss/vue-select.scss";
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+@import "bootstrap/scss/bootstrap.scss";
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../images/toggel.svg);
+  width: 32px;
+  height: 32px;
+}

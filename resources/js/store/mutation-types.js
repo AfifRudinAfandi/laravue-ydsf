@@ -1,0 +1,21 @@
+// auth.js
+export const LOGOUT = "LOGOUT";
+export const SAVE_TOKEN = "SAVE_TOKEN";
+export const FETCH_USER = "FETCH_USER";
+export const FETCH_USER_SUCCESS = "FETCH_USER_SUCCESS";
+export const FETCH_USER_FAILURE = "FETCH_USER_FAILURE";
+export const UPDATE_USER = "UPDATE_USER";
+export const UPDATE_BG_IMAGE = "UPDATE_BG_IMAGE";
+export const UPDATE_AUTH_TYPE = "UPDATE_AUTH_TYPE";
+export const TOGGLE_LOADING = "TOGGLE_LOADING";
+export const UPDATE_NOMINAL = "UPDATE_NOMINAL";
+export const UPDATE_ALIAS = "UPDATE_ALIAS";
+export const SET_EXPIRED_PAYMENT = "SET_EXPIRED_PAYMENT";
+export const UPDATE_PHONE = "UPDATE_PHONE";
+export const SET_DONATION_FORM = "SET_DONATION_FORM";
+export const RESET_DONATION_FORM = "RESET_DONATION_FORM";
+export const SET_VA = "SET_VA";
+export const UPDATE_HAS_NAV_COLOR = "UPDATE_HAS_NAV_COLOR";
+
+// lang.js
+export const SET_LOCALE = "SET_LOCALE";
